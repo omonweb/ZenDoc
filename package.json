@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@clerk/clerk-react": "^5.22.12",
+    "usehooks-ts": "^3.1.1"
+  }
+}
