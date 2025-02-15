@@ -1,7 +1,7 @@
 export default {
     providers: [
         {
-            domain: "https://intimate-haddock-94.clerk.accounts.dev",
+            domain: "https://gentle-bluegill-0.clerk.accounts.dev",
             applicationID: "convex"
         }
     ]

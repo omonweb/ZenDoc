@@ -27,7 +27,7 @@ export const Navbar = () => {
             )}
             {!isAuthenticated && !isLoading && (
                 <>
-                <SignInButton mode="modal">
+                <SignInButton mode="modal" forceRedirectUrl = "/documents" >
                     <Button size="sm">
                         Log in
                     </Button>
