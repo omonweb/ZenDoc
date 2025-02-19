@@ -11,7 +11,6 @@ import {
   DropdownMenuSeparator,
   DropdownMenuItem
 } from "@/components/ui/dropdown-menu";
-import { useState } from "react";
 
 export const UserItem = () => {
   const { user } = useUser();
