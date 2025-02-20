@@ -14,7 +14,7 @@ export const Heading = () => {
             <h1 className="text-3xl sm:text-6xl md:text-6xl font-bold">
                 Your Ideas, Documents, & Plans. Organized. Welcome to <span className="underline"> ZenHub</span>
             </h1>
-            <h3 className="text-base sm:text-3xl md:tet-2xl font-medium">
+            <h3 className="text-base sm:text-xl md:tet-2xl font-medium">
                 ZenDoc provides a connected workspace where <br />
                 better, faster work happens.
             </h3>
