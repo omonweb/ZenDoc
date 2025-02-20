@@ -127,6 +127,7 @@ export const Toolbar = ({
             {isEditing && !preview ? (
              <TextareaAutosize
                 ref={inputRef}
+                placeholder="Untitled"
                 onBlur={disableInput}
                 onKeyDown={onKeyDown}
                 value={value}
