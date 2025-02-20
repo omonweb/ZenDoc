@@ -33,7 +33,6 @@ export const Toolbar = ({
 
         setIsEditing(true);
         setTimeout(()=>{
-            setValue(initialData.title);
             inputRef.current?.focus();
         }, 0);
     };
