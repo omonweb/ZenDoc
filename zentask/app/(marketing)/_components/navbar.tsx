@@ -20,7 +20,7 @@ export const Navbar = () => {
         )}>
             <Logo />
         
-        <div className="md:ml-auto md:justify-end 
+        <div className="md:ml-auto md:justify-end sm:justify-center
         justify-between w-full flex items-center gap-x-2">
             {isLoading && (
                 <Spinner />
@@ -41,9 +41,7 @@ export const Navbar = () => {
                             Enter ZenHub
                         </Link>
                     </Button>
-                    <UserButton
-                        afterSignOutUrl="/"
-                    />
+                    <UserButton/>
                 </>
                 
             )}
