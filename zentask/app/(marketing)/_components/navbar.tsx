@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useConvexAuth } from "convex/react";
 import { useScrollTop } from "@/hooks/use-scroll-top";
 import { cn } from "@/lib/utils";
@@ -36,7 +35,7 @@ export const Navbar = () => {
             )}
             {isAuthenticated && !isLoading && (
                 <>
-                    <UserButton/>
+                    <UserButton />
                 </>
                 
             )}
