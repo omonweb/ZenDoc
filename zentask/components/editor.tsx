@@ -43,6 +43,7 @@ interface EditorProps {
     <BlockNoteView
       editor={editor}
       editable={editable}
+      sideMenu={false}
       theme={resolvedTheme === "dark" ? "dark" : "light"}
       onChange={()=> {
         setBlocks(editor.document);
