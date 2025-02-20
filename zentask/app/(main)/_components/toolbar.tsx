@@ -46,7 +46,7 @@ export const Toolbar = ({
         setValue(value);
         update({
             id: initialData._id,
-            title: value || "Untitled"
+            title: value 
         });
     };
 
