@@ -38,7 +38,7 @@ export const Navbar = () => {
                 <>
                     <Button variant="ghost"size="sm" asChild>
                         <Link href="/documents">
-                            Enter ZenDoc
+                            Enter ZenHub
                         </Link>
                     </Button>
                     <UserButton
