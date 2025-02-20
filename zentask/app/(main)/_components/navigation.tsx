@@ -16,7 +16,6 @@ import { TrashBox } from "./trash-box";
 import { useSearch } from "@/hooks/use-search";
 import { useSettings } from "@/hooks/use-settings";
 import { Navbar } from "./navbar";
-import { Id } from "@/convex/_generated/dataModel";
 
 export const Navigation = () => {
 

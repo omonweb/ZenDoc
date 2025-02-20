@@ -4,11 +4,10 @@ import { Doc } from "@/convex/_generated/dataModel";
 import { IconPicker } from "./icon-picker";
 import { Button } from "@/components/ui/button";
 import { ImageIcon, Smile, X } from "lucide-react";
-import React, { ElementRef, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import { useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
 import TextareaAutosize from "react-textarea-autosize";
-import { remove } from "@/convex/documents";
 import { useCoverImage } from "@/hooks/use-cover-image";
 
 interface ToolbarProps {
