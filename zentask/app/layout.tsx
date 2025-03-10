@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ZenTask",
+  title: "ZenHub",
   description: "One stop organized workspace solutions",
   icons: {
     icon: [
