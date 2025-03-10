@@ -7,13 +7,13 @@ export const Heroes = () => {
                 <div className="relative w-[300px] h-[300px]
                 sm:w-[350px] sm:h-[350px] md:h-[400px] md:w-[400px]">
                     <Image
-                        src="/reading-floor.svg"
+                        src="/hero-light.svg"
                         fill
                         className="object-contain dark:hidden"
                         alt="Reading"
                     />
                     <Image
-                        src="/reading-floor-dark.svg"
+                        src="/hero-dark.svg"
                         fill
                         className="object-contain hidden dark:block"
                         alt="Reading"
